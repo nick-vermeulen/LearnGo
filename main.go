@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var input = "Test"
-	fmt.Println("Hello world!")
-	fmt.Sprintln(input)
+	fmt.Println("Welcome!")
+	fmt.Println("Enter filename: ")
+	var input string
+	fmt.Scanln(&input)
 	fmt.Println(input)
 }
